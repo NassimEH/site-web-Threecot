@@ -1,0 +1,299 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Lucida Console", "Verdana", monospace;
+}
+
+/* Balises */
+
+header{
+	padding: 0 0 0.2em 0;
+	margin: 0 0 2em 0;
+	border-bottom: 0px solid #c0c0c0;
+	padding: 0.5em;
+}
+
+body{
+	min-height: 100vh;
+	background: rgb(179,171,255);
+	font-family: "Lucida Console", "Verdana", monospace;
+	font-size: 14px;
+	text-align: center;
+}
+
+nav{
+	margin: 0;
+	text-align: center;
+	min-height: 30px;
+	font-size: 6px;
+}
+
+a {
+	text-decoration: none;
+	color: rgb(69,60,158);
+}
+
+h1{
+	font-size: 20px;
+	font-weight: bold;
+	width: 38%;
+	margin: 0 auto;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+label {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+table{
+	margin: auto;
+	width: 100%;
+	line-height: 225%;
+	text-align: left;
+}
+
+button{
+	font-family: "Lucida Console", "Verdana", monospace;
+	background-color: #eeeeee;
+	color: rebeccapurple;
+	text-align: center;
+	font-size: 14px;
+	padding: 0.5rem 1rem 0.5rem 1rem;
+	margin: 10px 10px;
+	border-radius: 5rem;
+	font-weight: bold;
+}
+
+
+
+/* Inputs */
+
+/* Full-width inputs */
+input[type=text], input[type=password], input[type=email], textarea {
+	width: 90%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+	
+}
+
+/* Set a style for all buttons */
+input[type=submit], .bouton {
+	font-family: "Lucida Console", "Verdana", monospace;
+	color: white;
+	background-color: #6A5AFF;
+	border: 1px solid #6A5AFF;
+	padding: 14px 20px;
+	margin: 12px 12px;
+	cursor: pointer;
+	width: 100%;
+	font-size: 14px;
+}
+
+input[type=submit]:hover, .bouton:hover {
+	background-color: white;
+	color: #6A5AFF;
+	border: 1px solid #6A5AFF;
+}
+
+input[type=submit] a, .bouton a{
+	color: white;
+}
+
+
+
+/* Classes */
+
+.haut-gauche{
+	display: block;
+	max-height: 10em;
+	margin-left: auto;
+	margin-right: auto;
+	position: center;
+	height: auto;
+	line-height: 200%;
+	margin-top: 0px;
+	margin-bottom: 2em;
+	width: 100%;
+	background-color: #FFFFFF;
+}
+
+.container{
+	text-align: left;
+	margin-top:10%;
+	margin: auto;
+	width:80%;
+	padding: 30px;
+	border: 1px solid #f1f1f1;
+	background: #fff;
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+	line-height: 200%;
+}
+
+.bouton-nav{
+	margin: 0;
+	margin-top: 2px;
+  display: inline-block;
+	background-color: #eeeeee;
+	/*border-left: 3px rebeccapurple;
+	border-right: 3px rebeccapurple;*/
+	color: rebeccapurple;
+	text-align: center;
+	font-size: 16px;
+	width: 170px;
+	cursor: pointer;
+	float: center; 
+  position: relative;
+	/*box-shadow: 10px 5px 5px rgba(125,112,148,255);*/
+}
+
+.liens-footer a{
+  color: #ffffff;
+  margin-right:2vw;
+  font-weight:light;
+}
+
+.footer-social a {
+	font-size: 16px;
+	margin-right: 5px;
+}
+
+.footer-social a:hover {
+  opacity: 0.8;
+}
+
+.liens-social a{
+  color: #ffffff;
+  margin-right:2vw;
+  font-weight:1vw;
+}
+
+.label-right{
+	text-align: right;
+	width: 20%;
+	padding-left: 2%;
+	padding-right: 2%;
+}
+
+.secondaire{
+	color: rgb(128,128,128);
+}
+
+.en-haut{
+	text-align: left;
+	margin-top:10%;
+	margin: auto;
+	width:60%;
+	padding: 30px;
+	border: 1px solid #f1f1f1;
+	background: #fff;
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+	line-height: 120%;
+}
+
+.en-haut tr{
+	padding-top: 1%;
+	padding-top: 1%;
+}
+
+.choix{
+	padding-left: 0.5rem;
+	padding-right: 0.5rem;
+}
+
+.noms {
+	line-height: 90%;
+}
+
+.noms h3{
+	color: rebeccapurple;
+	font-weight: normal;
+	font-size: 1.5em;
+}
+
+.stats{
+	columns: 2;
+	border-top: 1px solid rgb(220,200,255);
+	margin-top: 2em; 
+	padding: 2em; 
+	line-height: 1.5em;
+}
+
+.stats h3{
+	color: rebeccapurple;
+	font-weight: profil;
+	font-size: 2em;;
+}
+
+.pfp{
+	width: 120px;
+	height: 120px;
+	border-radius: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.alerte{
+	text-align: left;
+	margin: auto;
+	width:70%;
+	padding: 20px;
+	border: 1px solid #f1f1f1;
+	background: rgb(200,200,255);
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+	line-height: 120%;
+}
+
+.autre {
+	background-color: rgb(200,200,200);
+	border: 1px solid rgb(200,200,200);
+}
+
+.autre:hover{
+	border: 1px solid rgb(200,200,200);
+	background-color: rgb(255,255,255);
+	color: gray;
+}
+
+
+
+/* Ids */
+
+#footer-container{
+  position:fixed;
+  bottom:0;
+  left:0;
+	background-color: rebeccapurple;
+  padding: 20px;
+  text-align: center;
+	margin: 0;
+	width: 100%;
+}
+
+#profil{
+	text-align: center;
+}
+
+#Facebook{
+	color: darkblue;
+  font-style: italic;
+}
+
+#Twitter{
+	color: skyblue;
+  font-style: italic;
+}
+
+#Instagram{
+	color: deeppink;
+  font-style: italic;
+}
+
+#newEv{
+	width:80%;
+}
