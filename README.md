@@ -12,6 +12,9 @@ We worked as a team to design, develop, and deploy this application, utilizing v
 - HTML
 - CSS
 
+[![Made with PHP](https://img.shields.io/badge/Made%20with-PHP-blue.svg)](https://www.php.net/)
+
+
 ## Authors
 
 - [Nassim EL HADDAD](https://github.com/NassimEH)
