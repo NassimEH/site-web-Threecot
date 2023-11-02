@@ -15,6 +15,6 @@ We worked as a team to design, develop, and deploy this application, utilizing v
 ## Authors
 
 - [Nassim EL HADDAD](https://github.com/NassimEH)
-- [Lucile PEREIRA]
-- [Marjorie DAVELUY]
+- [Lucile PEREIRA](https://www.linkedin.com/in/lucile-pereira-a37823290/)
+- [Marjorie DAVELUY](https://www.linkedin.com/in/marjorie-daveluy/)
 
